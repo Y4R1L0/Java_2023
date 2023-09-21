@@ -4,7 +4,6 @@ import java.util.*;
 
 public class BasicsDemo {
     public void run(){
-            // Статичний словник із перекладами
             Map<String, String> dictionary = new HashMap<String,String>();
         dictionary.put("привіт", "hello");
         dictionary.put("ґрунт", "dirt");
@@ -20,7 +19,6 @@ public class BasicsDemo {
                 System.out.print("Введіть слово для перекладу: ");
                 String word = scanner.nextLine();
 
-                // Пошук перекладу слова у словнику
                 String translate = dictionary.get(word);
 
                 if (translate != null) {
